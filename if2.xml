@@ -25,7 +25,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_right" id="194"></block>
+          <block type="movement_forward" id="152"></block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="126" inline="true">
@@ -46,7 +46,7 @@
           <block type="movement_left" id="204"></block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_forward" id="152"></block>
+          <block type="movement_right" id="194"></block>
         </statement>
         <next>
           <block type="robot_delay" id="119" inline="true">
