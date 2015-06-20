@@ -19,13 +19,13 @@
             </value>
             <value name="B">
               <block type="math_number" id="72">
-                <field name="NUM">75</field>
+                <field name="NUM">80</field>
               </block>
             </value>
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_left" id="96"></block>
+          <block type="movement_right" id="173"></block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="126" inline="true">
@@ -37,7 +37,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="128">
-                <field name="NUM">75</field>
+                <field name="NUM">80</field>
               </block>
             </value>
           </block>
@@ -52,7 +52,7 @@
           <block type="robot_delay" id="119" inline="true">
             <value name="DELAY">
               <block type="math_number" id="120">
-                <field name="NUM">200</field>
+                <field name="NUM">100</field>
               </block>
             </value>
           </block>
